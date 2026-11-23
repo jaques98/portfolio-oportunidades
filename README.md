@@ -131,11 +131,11 @@ A verificação inclui tipos, análise estática, API e navegação; não signif
 - Sem paginação: adequado apenas a um conjunto pequeno de demonstração.
 - Totais são estimativas das oportunidades filtradas, não faturamento ou vendas reconhecidas.
 - Persistência síncrona SQLite escolhida pela simplicidade da amostra.
-- CI configurada localmente; execução no GitHub só pode ser confirmada depois da publicação.
-- Publicação em preparação: https://github.com/jaques98/portfolio-oportunidades .
+- CI aprovada em Linux/Chromium: [execução verificada](https://github.com/jaques98/portfolio-oportunidades/actions/runs/45190192822).
+- Repositório público: https://github.com/jaques98/portfolio-oportunidades .
 - Licença pública ainda será definida antes da divulgação. Não inferir licença do template.
 
 ## Próximos passos
 
-Revisar a licença pública e confirmar os resultados da CI no GitHub.
+Definir a licença pública e desenvolver as demonstrações em vídeo dos produtos.
 As demonstrações em vídeo do Águia e BuscaDOU são uma entrega separada.

@@ -69,3 +69,10 @@
 - Instalação em cópia limpa aprovada: 43 testes de servidor e seis testes de navegador, tipos, lint e build.
 - CI remota e licença pública permanecem pendentes; repositório não publicado.
 - Próximo marco: revisão do material e definição do repositório no GitHub.
+
+## 23/11/2026 - Repositório público
+
+- Publicado em jaques98/portfolio-oportunidades.
+- Primeiro commit criado com autoria correta e e-mail privado.
+- Acesso público e CI remota confirmados.
+- Próximo marco: incluir o repositório em Projetos/Em destaque e preparar as demonstrações em vídeo.

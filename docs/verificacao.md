@@ -57,3 +57,16 @@
 - Mantidos avisos de ambiente: NO_COLOR/FORCE_COLOR e postinstall do esbuild não autorizado automaticamente pelo npm. A instalação, a execução tsx e o build funcionaram sem liberar o script.
 - Licença pública ainda pendente; removida a indicação ISC herdada do template. Pacote server marcado privado/UNLICENSED até definição.
 - Sem commits, publicação de repositório ou envio de dados ao GitHub nesta etapa.
+
+## 23/11/2026 - Publicação e CI remota
+
+- Repositório público: https://github.com/jaques98/portfolio-oportunidades
+- Primeiro commit: 8b1abdf, autoria Maviael Jaques com e-mail privado do GitHub.
+- Nome/e-mail corrigidos apenas na configuração local deste repositório.
+- Acesso anônimo confirmado por HTTP 200.
+- CI remota aprovada em Linux/Chromium, incluindo instalação limpa, tipos, testes da API, lint, build e seis testes de navegador.
+- Execução: https://github.com/jaques98/portfolio-oportunidades/actions/runs/45190192822
+- Código verificado corresponde ao commit 8b1abdf. Atualização posterior apenas documental não exige repetir as mesmas verificações.
+- Revisão pré-publicação: nenhum padrão conhecido de credencial encontrado nos arquivos enviados; runtime, dependências, logs e bancos locais excluídos pelo .gitignore.
+- Licença pública ainda não definida; não foi concedida licença aberta automaticamente.
+- Vídeos e página de demonstrações dos produtos permanecem pendentes.
