@@ -1,0 +1,15 @@
+.tools/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+server/data/
+*.db
+*.db-wal
+*.db-shm
+coverage/
+
+test-results/
+playwright-report/
+*.log

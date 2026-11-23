@@ -1,0 +1,24 @@
+name: Verificar portfolio
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - run: npm ci --prefix server
+      - run: npm ci --prefix web
+      - run: npm --prefix server run typecheck
+      - run: npm --prefix server test
+      - run: npm --prefix web run lint
+      - run: npm --prefix web run build
+      - name: Instalar navegador
+        working-directory: web
+        run: npx playwright install --with-deps chromium
+      - name: Conferir fluxo no navegador
+        run: npm --prefix web run test:e2e
